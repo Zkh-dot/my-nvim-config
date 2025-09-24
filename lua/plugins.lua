@@ -19,6 +19,8 @@ require("lazy").setup({
   { "L3MON4D3/LuaSnip" },
   { "saadparwaiz1/cmp_luasnip" },
   { "rafamadriz/friendly-snippets" },
+  { "hrsh7th/cmp-nvim-lsp-signature-help" },
+
 
   -- treesitter
   { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
